@@ -20,6 +20,8 @@ void App::Level_4_Start() {
         m_CurrentState = State::END;
     }
 
+    m_IsCheating = false;
+
     m_CurrentState = State::LEVEL_4_UPDATE;
 }
 

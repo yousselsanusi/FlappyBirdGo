@@ -23,5 +23,7 @@ void App::Level_1_Start() {
         m_CurrentState = State::END;
     }
 
+    m_IsCheating = false;
+
     m_CurrentState = State::LEVEL_1_UPDATE;
 }

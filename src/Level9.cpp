@@ -52,6 +52,8 @@ void App::Level_9_Start() {
         m_CurrentState = State::END;
     }
 
+    m_IsCheating = false;
+
     m_CurrentState = State::LEVEL_9_UPDATE;
 }
 

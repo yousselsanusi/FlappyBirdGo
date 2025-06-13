@@ -28,6 +28,8 @@ void App::Level_8_Start() {
         m_CurrentState = State::END;
     }
 
+    m_IsCheating = false;
+
     m_CurrentState = State::LEVEL_8_UPDATE;
 }
 
