@@ -21,4 +21,8 @@ This is a [PTSD](https://github.com/ntut-open-source-club/practical-tools-for-si
    ```sh
    cmake -DCMAKE_BUILD_TYPE=Debug -B build # -G Ninja
    ```
+<<<<<<< HEAD
    better read [PTSD README](https://github.com/ntut-open-source-club/practical-tools-for-simple-design)
+=======
+   better read [PTSD README](https://github.com/ntut-open-source-club/practical-tools-for-simple-design)
+>>>>>>> b608f54e3c839843df57c6c582d8eea8d69765aa

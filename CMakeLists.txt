@@ -35,6 +35,7 @@ add_executable(${PROJECT_NAME}
     ${SRC_DIR}/main.cpp
     ${SRC_FILES}
     ${HEADER_FILES}
+<<<<<<< HEAD
         src/Start_Level1.cpp
         src/Update_Level1.cpp
         src/Start_Level1.cpp
@@ -52,6 +53,8 @@ add_executable(${PROJECT_NAME}
         src/Level8.cpp
         src/Level9.cpp
         src/Level10.cpp
+=======
+>>>>>>> b608f54e3c839843df57c6c582d8eea8d69765aa
 )
 
 if(MSVC)
