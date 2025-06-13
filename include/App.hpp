@@ -2,20 +2,16 @@
 #define APP_HPP
 
 #include "pch.hpp" // IWYU pragma: export
-<<<<<<< HEAD
 #include "Util/Renderer.hpp"
 #include "Util/SFX.hpp"
 
 class Character;
 class PhaseResourceManager;
 class AnimatedCharacter;
-=======
->>>>>>> b608f54e3c839843df57c6c582d8eea8d69765aa
 
 class App {
 public:
     enum class State {
-<<<<<<< HEAD
         LEVEL_1_START,
         LEVEL_1_UPDATE,
         LEVEL_1_GAMEOVER,
@@ -46,16 +42,13 @@ public:
         LEVEL_10_START,
         LEVEL_10_UPDATE,
         LEVEL_10_GAMEOVER,
-=======
         START,
         UPDATE,
->>>>>>> b608f54e3c839843df57c6c582d8eea8d69765aa
         END,
     };
 
     State GetCurrentState() const { return m_CurrentState; }
 
-<<<<<<< HEAD
     //level 1 normal
     void Level_1_Start();
 
@@ -225,19 +218,6 @@ private:
     std::shared_ptr<Util::SFX> m_GameWinningSFX;
 
     Util::Renderer m_Root;
-=======
-    void Start();
-
-    void Update();
-
-    void End(); // NOLINT(readability-convert-member-functions-to-static)
-
-private:
-    void ValidTask();
-
-private:
-    State m_CurrentState = State::START;
->>>>>>> b608f54e3c839843df57c6c582d8eea8d69765aa
 };
 
 #endif

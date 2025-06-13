@@ -35,15 +35,15 @@ add_executable(${PROJECT_NAME}
     ${SRC_DIR}/main.cpp
     ${SRC_FILES}
     ${HEADER_FILES}
-<<<<<<< HEAD
+        include/AnimatedCharacter.hpp
+        Include/App.hpp
+        include/Character.hpp
+        src/main.cpp
+        src/App.cpp
+        src/Character.cpp
         src/Start_Level1.cpp
         src/Update_Level1.cpp
-        src/Start_Level1.cpp
-        include/Character.hpp
-        src/Character.cpp
-        include/AnimatedCharacter.hpp
         src/GameOver_Level1.cpp
-        include/App.hpp
         src/Level2.cpp
         src/Level3.cpp
         src/Level4.cpp
@@ -53,8 +53,6 @@ add_executable(${PROJECT_NAME}
         src/Level8.cpp
         src/Level9.cpp
         src/Level10.cpp
-=======
->>>>>>> b608f54e3c839843df57c6c582d8eea8d69765aa
 )
 
 if(MSVC)

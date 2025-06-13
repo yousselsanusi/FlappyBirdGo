@@ -1,5 +1,4 @@
 #include "App.hpp"
-<<<<<<< HEAD
 #include "Character.hpp"
 #include "AnimatedCharacter.hpp"
 #include "Util/Input.hpp"
@@ -511,37 +510,8 @@ void App::ClearPointUI() {
     m_Point_18->SetVisible(false);
     m_Point_19->SetVisible(false);
     m_Point_20->SetVisible(false);
-=======
-
-#include "Util/Image.hpp"
-#include "Util/Input.hpp"
-#include "Util/Keycode.hpp"
-#include "Util/Logger.hpp"
-
-void App::Start() {
-    LOG_TRACE("Start");
-    m_CurrentState = State::UPDATE;
-}
-
-void App::Update() {
-    
-    //TODO: do your things here and delete this line <3
-    
-    /*
-     * Do not touch the code below as they serve the purpose for
-     * closing the window.
-     */
-    if (Util::Input::IsKeyUp(Util::Keycode::ESCAPE) ||
-        Util::Input::IfExit()) {
-        m_CurrentState = State::END;
-    }
->>>>>>> b608f54e3c839843df57c6c582d8eea8d69765aa
 }
 
 void App::End() { // NOLINT(this method will mutate members in the future)
     LOG_TRACE("End");
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> b608f54e3c839843df57c6c582d8eea8d69765aa

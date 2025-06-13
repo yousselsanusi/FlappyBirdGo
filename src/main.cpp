@@ -1,10 +1,6 @@
 #include "App.hpp"
-<<<<<<< HEAD
 #include "Util/Keycode.hpp"
 #include "Util/Input.hpp"
-
-=======
->>>>>>> b608f54e3c839843df57c6c582d8eea8d69765aa
 
 #include "Core/Context.hpp"
 
@@ -14,7 +10,6 @@ int main(int, char**) {
 
     while (!context->GetExit()) {
         switch (app.GetCurrentState()) {
-<<<<<<< HEAD
             //level 1
             case App::State::LEVEL_1_START:
                 app.Level_1_Start();
@@ -146,16 +141,6 @@ int main(int, char**) {
                 break;
 
             //end
-=======
-            case App::State::START:
-                app.Start();
-                break;
-
-            case App::State::UPDATE:
-                app.Update();
-                break;
-
->>>>>>> b608f54e3c839843df57c6c582d8eea8d69765aa
             case App::State::END:
                 app.End();
                 context->SetExit(true);

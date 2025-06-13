@@ -1,28 +1,39 @@
-# PTSD Template
+# 2025 OOPL Final Report
 
-This is a [PTSD](https://github.com/ntut-open-source-club/practical-tools-for-simple-design) framework template for students taking OOPL2024s.
+## 組別資訊
 
-## Quick Start
+組別：37 \
+組員：施孝健 112590040 \
+復刻遊戲：Flappy Bird Go
 
-1. Use this template to create a new repository
-   ![github screenshot](https://github.com/ntut-rick/ptsd-template/assets/126899559/ef62242f-03ed-481d-b858-12b730c09beb)
+## 專案簡介
 
-2. Clone your repository
+### 遊戲簡介
+### 組別分工
 
-   ```bash
-   git clone YOUR_GIT_URL --recursive
-   ```
+## 遊戲介紹
 
-3. Build your project
+### 遊戲規則
+### 遊戲畫面
 
-  > [!WARNING]
-  > Please build your project in `Debug` because our `Release` path is broken D:
-   
-   ```sh
-   cmake -DCMAKE_BUILD_TYPE=Debug -B build # -G Ninja
-   ```
-<<<<<<< HEAD
-   better read [PTSD README](https://github.com/ntut-open-source-club/practical-tools-for-simple-design)
-=======
-   better read [PTSD README](https://github.com/ntut-open-source-club/practical-tools-for-simple-design)
->>>>>>> b608f54e3c839843df57c6c582d8eea8d69765aa
+## 程式設計
+
+### 程式架構
+### 程式技術
+
+## 結語
+
+### 問題與解決方法
+### 自評
+
+| 項次 | 項目                   | 完成 |
+|------|------------------------|----|
+| 1    | 這是範例 | V  |
+| 2    | 完成專案權限改為 public | V  |
+| 3    | 具有 debug mode 的功能  | V  |
+| 4    | 解決專案上所有 Memory Leak 的問題  | V  |
+| 5    | 報告中沒有任何錯字，以及沒有任何一項遺漏  | V  |
+| 6    | 報告至少保持基本的美感，人類可讀  | V  |
+
+### 心得
+### 貢獻比例
