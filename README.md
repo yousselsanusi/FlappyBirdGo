@@ -102,7 +102,7 @@ Flappy Bird Go is a remake of the classic Flappy Bird game featuring significant
   The game flow is controlled by a state machine pattern using enums to switch between different game states such as start, running, winning, game over, and end. Player inputs (pause, resume, next/previous level, cheat mode toggles, restart, exit) are captured and processed within each update function for smooth control and responsiveness.
 - Dynamic Pipe Behaviors: \
   Each level introduces unique pipe mechanics—such as vertical oscillation, blinking visibility, adjacent pipe placement, or reverse gravity—implemented within the update functions. Pipe positions update every frame based on level-specific logic to increase difficulty progressively.
-  = Collision Detection with Cheat Mode: \
+- Collision Detection with Cheat Mode: \
   Collision detection occurs every frame to check bird interactions with pipes and boundaries. A cheat mode toggle disables collisions, facilitating debugging and offering gameplay flexibility.
 - Scoring and UI Feedback: \
   Scores increment as the bird successfully passes pipes, triggering sound effects and dynamic UI updates. Point display, game over messages, and victory screens are managed by toggling UI element visibility based on the current game state.
